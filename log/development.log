@@ -14865,3 +14865,359 @@ Processing by EventsController#index as HTML
 Completed 200 OK in 17ms (Views: 15.3ms | ActiveRecord: 0.2ms)
 
 
+Started GET "/welcome/index" for 127.0.0.1 at 2018-07-10 13:25:07 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.6ms)
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 23ms (Views: 21.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-08-06" for 127.0.0.1 at 2018-07-10 13:33:46 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-08-06"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.1ms)
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 22ms (Views: 21.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-09-03" for 127.0.0.1 at 2018-07-10 13:33:48 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-09-03"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (6.7ms)
+  Rendered welcome/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 23ms (Views: 22.0ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-10-01" for 127.0.0.1 at 2018-07-10 13:33:49 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-10-01"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.3ms)
+  Rendered welcome/index.html.erb within layouts/application (9.1ms)
+Completed 200 OK in 23ms (Views: 21.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-11-05" for 127.0.0.1 at 2018-07-10 13:33:49 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-11-05"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (6.9ms)
+  Rendered welcome/index.html.erb within layouts/application (8.7ms)
+Completed 200 OK in 24ms (Views: 22.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-12-03" for 127.0.0.1 at 2018-07-10 13:33:50 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-12-03"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (9.3ms)
+  Rendered welcome/index.html.erb within layouts/application (11.6ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2018-07-10 13:33:54 +0300
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:11
+  Rendered events/index.html.erb within layouts/application (2.3ms)
+Completed 200 OK in 22ms (Views: 20.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-07-10 13:33:57 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.4ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 26ms (Views: 24.5ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2018-07-10 13:33:59 +0300
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (1.7ms)
+  Rendered events/new.html.erb within layouts/application (2.8ms)
+Completed 200 OK in 25ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2018-07-10 13:34:02 +0300
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:11
+  Rendered events/index.html.erb within layouts/application (2.2ms)
+Completed 200 OK in 24ms (Views: 21.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-07-10 13:34:03 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (6.7ms)
+  Rendered welcome/index.html.erb within layouts/application (10.3ms)
+Completed 200 OK in 26ms (Views: 24.3ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-08-06" for 127.0.0.1 at 2018-07-10 13:34:28 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-08-06"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.3ms)
+  Rendered welcome/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 23ms (Views: 22.1ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-09-03" for 127.0.0.1 at 2018-07-10 13:34:31 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-09-03"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.4ms)
+  Rendered welcome/index.html.erb within layouts/application (9.6ms)
+Completed 200 OK in 25ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-10-01" for 127.0.0.1 at 2018-07-10 13:34:32 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-10-01"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (8.3ms)
+  Rendered welcome/index.html.erb within layouts/application (10.5ms)
+Completed 200 OK in 25ms (Views: 23.6ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-09-30" for 127.0.0.1 at 2018-07-10 13:34:34 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-09-30"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.8ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 24ms (Views: 22.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-08-26" for 127.0.0.1 at 2018-07-10 13:34:35 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-08-26"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.2ms)
+  Rendered welcome/index.html.erb within layouts/application (9.5ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-07-29" for 127.0.0.1 at 2018-07-10 13:34:35 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-07-29"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (9.3ms)
+  Rendered welcome/index.html.erb within layouts/application (11.1ms)
+Completed 200 OK in 25ms (Views: 23.9ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/welcome/index?start_date=2018-06-24" for 127.0.0.1 at 2018-07-10 13:34:37 +0300
+Processing by WelcomeController#index as HTML
+  Parameters: {"start_date"=>"2018-06-24"}
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.5ms)
+  Rendered welcome/index.html.erb within layouts/application (9.7ms)
+Completed 200 OK in 34ms (Views: 32.4ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2018-07-10 13:34:46 +0300
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (2.0ms)
+  Rendered events/new.html.erb within layouts/application (3.3ms)
+Completed 200 OK in 25ms (Views: 23.2ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2018-07-10 13:34:49 +0300
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:11
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 22ms (Views: 20.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-07-10 13:34:52 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (8.0ms)
+  Rendered welcome/index.html.erb within layouts/application (10.1ms)
+Completed 200 OK in 25ms (Views: 23.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2018-07-10 13:34:57 +0300
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (3.1ms)
+  Rendered events/new.html.erb within layouts/application (4.5ms)
+Completed 200 OK in 25ms (Views: 22.4ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2018-07-10 13:35:11 +0300
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"zHnBUV+raElTNB6TsSuQeHJ3MvHAcN/2LxWg54voTB2ZuCrujttCX+cuyPu3TaD6dYkkghPIinmvjKHdqRQFEQ==", "event"=>{"definition"=>"event", "date"=>"2018-06-01"}, "commit"=>"Create Event"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:20
+  [1m[36mEvent Create (0.6ms)[0m  [1m[32mINSERT INTO "events" ("definition", "date", "created_at", "updated_at") VALUES (?, ?, ?, ?)[0m  [["definition", "event"], ["date", "2018-06-01"], ["created_at", "2018-07-10 10:35:11.504400"], ["updated_at", "2018-07-10 10:35:11.504400"]]
+  ↳ app/controllers/events_controller.rb:20
+  [1m[35m (3.6ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:20
+Redirected to http://localhost:3000/events/10
+Completed 302 Found in 8ms (ActiveRecord: 4.2ms)
+
+
+Started GET "/events/10" for 127.0.0.1 at 2018-07-10 13:35:11 +0300
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"10"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 10], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:15
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.6ms)
+Completed 200 OK in 15ms (Views: 12.0ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-07-10 13:35:16 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (6.8ms)
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 26ms (Views: 23.7ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2018-07-10 13:35:17 +0300
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.3ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:11
+  Rendered events/index.html.erb within layouts/application (3.5ms)
+Completed 200 OK in 19ms (Views: 16.9ms | ActiveRecord: 0.3ms)
+
+
+Started GET "/events/1/edit" for 127.0.0.1 at 2018-07-10 13:35:27 +0300
+Processing by EventsController#edit as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:7
+  Rendering events/edit.html.erb within layouts/application
+  Rendered events/_form.html.erb (1.8ms)
+  Rendered events/edit.html.erb within layouts/application (2.9ms)
+Completed 200 OK in 17ms (Views: 15.0ms | ActiveRecord: 0.1ms)
+
+
+Started PATCH "/events/1" for 127.0.0.1 at 2018-07-10 13:35:31 +0300
+Processing by EventsController#update as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"MZsuhEVFtojAIHgXVecS7AfZh91NGKKph+3wxUrFxyRpURsyErA+7dN+Ywo1huaSdpiIrWJzHvR2QS+1Re8dsA==", "event"=>{"definition"=>"1adasfknkhb", "date"=>"2018-06-25"}, "commit"=>"Update Event", "id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:28
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:30
+  [1m[36mEvent Update (0.5ms)[0m  [1m[33mUPDATE "events" SET "definition" = ?, "updated_at" = ? WHERE "events"."id" = ?[0m  [["definition", "1adasfknkhb"], ["updated_at", "2018-07-10 10:35:31.686748"], ["id", 1]]
+  ↳ app/controllers/events_controller.rb:30
+  [1m[35m (3.7ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:30
+Redirected to http://localhost:3000/events/1
+Completed 302 Found in 8ms (ActiveRecord: 4.3ms)
+
+
+Started GET "/events/1" for 127.0.0.1 at 2018-07-10 13:35:31 +0300
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:15
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.5ms)
+Completed 200 OK in 19ms (Views: 17.2ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2018-07-10 13:35:36 +0300
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:11
+  Rendered events/index.html.erb within layouts/application (2.0ms)
+Completed 200 OK in 17ms (Views: 14.6ms | ActiveRecord: 0.1ms)
+
+
+Started DELETE "/events/1" for 127.0.0.1 at 2018-07-10 13:35:40 +0300
+Processing by EventsController#destroy as HTML
+  Parameters: {"authenticity_token"=>"ZjWTWltdDJytRVqLu9C6gbvo/EUcbxBnFZLcvo+1h03o6Zt2G5UbO4armlyPWzrPF4nb4xIG8YVdyy9AxVWW2A==", "id"=>"1"}
+  [1m[36mEvent Load (0.1ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 1], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:38
+  [1m[35m (0.0ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:39
+  [1m[36mEvent Destroy (0.4ms)[0m  [1m[31mDELETE FROM "events" WHERE "events"."id" = ?[0m  [["id", 1]]
+  ↳ app/controllers/events_controller.rb:39
+  [1m[35m (5.0ms)[0m  [1m[36mcommit transaction[0m
+  ↳ app/controllers/events_controller.rb:39
+Redirected to http://localhost:3000/events
+Completed 302 Found in 9ms (ActiveRecord: 5.6ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2018-07-10 13:35:40 +0300
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:11
+  Rendered events/index.html.erb within layouts/application (1.7ms)
+Completed 200 OK in 16ms (Views: 14.6ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/events/9" for 127.0.0.1 at 2018-07-10 13:35:44 +0300
+Processing by EventsController#show as HTML
+  Parameters: {"id"=>"9"}
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT  "events".* FROM "events" WHERE "events"."id" = ? LIMIT ?[0m  [["id", 9], ["LIMIT", 1]]
+  ↳ app/controllers/events_controller.rb:15
+  Rendering events/show.html.erb within layouts/application
+  Rendered events/show.html.erb within layouts/application (0.8ms)
+Completed 200 OK in 18ms (Views: 16.1ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-07-10 13:35:45 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (7.0ms)
+  Rendered welcome/index.html.erb within layouts/application (8.8ms)
+Completed 200 OK in 24ms (Views: 22.8ms | ActiveRecord: 0.0ms)
+
+
+Started GET "/events/new" for 127.0.0.1 at 2018-07-10 13:35:48 +0300
+Processing by EventsController#new as HTML
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (2.1ms)
+  Rendered events/new.html.erb within layouts/application (3.6ms)
+Completed 200 OK in 20ms (Views: 17.8ms | ActiveRecord: 0.0ms)
+
+
+Started POST "/events" for 127.0.0.1 at 2018-07-10 13:35:50 +0300
+Processing by EventsController#create as HTML
+  Parameters: {"utf8"=>"✓", "authenticity_token"=>"2tS2uJZ6xo2t35WE3KOwQv+gpNiRo+61vqj9z1A8MguPFV0HRwrsmxnFQ+zaxYDA+F6yq0Ibuzo+Mfz1csB7Bw==", "event"=>{"definition"=>"", "date"=>""}, "commit"=>"Create Event"}
+  [1m[35m (0.1ms)[0m  [1m[36mbegin transaction[0m
+  ↳ app/controllers/events_controller.rb:20
+  [1m[35m (0.1ms)[0m  [1m[31mrollback transaction[0m
+  ↳ app/controllers/events_controller.rb:20
+  Rendering events/new.html.erb within layouts/application
+  Rendered events/_form.html.erb (2.1ms)
+  Rendered events/new.html.erb within layouts/application (3.1ms)
+Completed 200 OK in 21ms (Views: 18.0ms | ActiveRecord: 0.1ms)
+
+
+Started GET "/events" for 127.0.0.1 at 2018-07-10 13:36:07 +0300
+Processing by EventsController#index as HTML
+  Rendering events/index.html.erb within layouts/application
+  [1m[36mEvent Load (0.2ms)[0m  [1m[34mSELECT "events".* FROM "events"[0m
+  ↳ app/views/events/index.html.erb:11
+  Rendered events/index.html.erb within layouts/application (2.1ms)
+Completed 200 OK in 18ms (Views: 15.7ms | ActiveRecord: 0.2ms)
+
+
+Started GET "/welcome/index" for 127.0.0.1 at 2018-07-10 13:36:19 +0300
+Processing by WelcomeController#index as HTML
+  Rendering welcome/index.html.erb within layouts/application
+  Rendered /var/lib/gems/2.5.0/gems/simple_calendar-2.2.7/app/views/simple_calendar/_month_calendar.html.erb (6.6ms)
+  Rendered welcome/index.html.erb within layouts/application (9.2ms)
+Completed 200 OK in 24ms (Views: 22.6ms | ActiveRecord: 0.0ms)
+
+
